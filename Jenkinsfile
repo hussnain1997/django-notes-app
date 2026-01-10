@@ -38,6 +38,7 @@ pipeline{
                 sh "docker compose down && docker compose up -d"
                 sh "docker ps"
                 sh "docker ps -a"
+                sh "docker images"
             }
         }
     }
